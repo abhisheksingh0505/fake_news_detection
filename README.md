@@ -19,7 +19,7 @@ A machine learning-powered web application that classifies news articles as **Re
 
 ## 🚀 Live Demo
 
-[(http://localhost:8502)]
+[((http://192.168.43.232:8501))]
 
 ## 📊 Model Performance
 

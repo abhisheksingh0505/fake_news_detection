@@ -293,7 +293,7 @@ python -m pytest tests/
 
 ⭐ **If you find this project helpful, please [give it a star](https://github.com/abhisheksingh0505/fake_news_detection/stargazers)!** ⭐
 
-[![Fake News Detector](https://via.placeholder.com/800x400/FF6B6B/FFFFFF?text=Fake+News+Detector+🕵️)](https://github.com/abhisheksingh0505/fake_news_detection/stargazers)
+[![Fake News Detection](https://via.placeholder.com/800x400/FF6B6B/FFFFFF?text=Fake+News+Detector+🕵️)](https://github.com/abhisheksingh0505/fake_news_detection/stargazers)
 
 ---
 

@@ -29,19 +29,21 @@ A machine learning-powered web application that classifies news articles as **Re
 
 ```
 streamlit-fake-news/
+
+├── datasets/                      # Training datasets
+│   ├── Fake.csv                   # Fake news dataset
+│   └── True.csv                   # Real news dataset
+└── models/                        # Trained model files
+    ├── model.pkl                  # Trained Logistic Regression model
+    └── tfidf_vectorizer.pkl       # TF-IDF 
+├── venv/                          # Virtual environment
 ├── .git/                           # Git repository
 ├── .gitignore                      # Git ignore file
 ├── app.py                          # Main Streamlit application
 ├── fake_news_classifier.ipynb     # Jupyter notebook (model training)
 ├── README.md                       # Project documentation
 ├── requirements.txt                # Python dependencies
-├── venv/                          # Virtual environment
-├── datasets/                      # Training datasets
-│   ├── Fake.csv                   # Fake news dataset
-│   └── True.csv                   # Real news dataset
-└── models/                        # Trained model files
-    ├── model.pkl                  # Trained Logistic Regression model
-    └── tfidf_vectorizer.pkl       # TF-IDF vectorizer
+
 ```
 
 ## 🛠️ Installation & Setup
@@ -276,14 +278,13 @@ python -m pytest tests/
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/abhisheksingh0505/fake_news_detection)
 - **Email**: sing050530@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/abhishek-singh-139181279)
 
 ## 📚 References
 
-1. "Fake News Detection Using Machine Learning" - [Research Paper Link]
-2. "The spread of true and false news online" - Science, 2018
-3. "Natural Language Processing with Python" - NLTK Documentation
-4. "scikit-learn: Machine Learning in Python" - Journal of Machine Learning Research
+1. "The spread of true and false news online" - Science, 2018
+2. "Natural Language Processing with Python" - NLTK Documentation
+3. "scikit-learn: Machine Learning in Python" - Journal of Machine Learning Research
 
 ---
 

@@ -27,7 +27,7 @@ A machine learning-powered web application that classifies news articles as **Re
 - **Training Data**: ~42,000 news articles (21k fake + 21k real)
 - **Features**: TF-IDF vectorization with 5,000 features
 - **Preprocessing**: Text cleaning, stopword removal, lemmatization
-- **Accuracy**: [Insert your model accuracy here]
+- **Accuracy**: [Accuracy: 0.9879 and F1 Score: 0.9875]
 
 ## 🏗️ Project Structure
 
@@ -37,9 +37,6 @@ streamlit-fake-news/
 ├── datasets/                      # Training datasets
 │   ├── Fake.csv                   # Fake news dataset
 │   └── True.csv                   # Real news dataset
-└── models/                        # Trained model files
-    ├── model.pkl                  # Trained Logistic Regression model
-    └── tfidf_vectorizer.pkl       # TF-IDF 
 ├── venv/                          # Virtual environment
 ├── .git/                           # Git repository
 ├── .gitignore                      # Git ignore file
@@ -49,6 +46,8 @@ streamlit-fake-news/
 ├── requirements.txt                # Python dependencies
 
 ```
+
+
 
 ## 🛠️ Installation & Setup
 

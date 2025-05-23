@@ -1,4 +1,8 @@
-# # 🕵️ Fake News Detection
+# 🕵️ Fake News Detection
+
+[![GitHub Stars](https://img.shields.io/github/stars/abhisheksingh0505/fake_news_detection?style=social)](https://github.com/abhisheksingh0505/fake_news_detection/stargazers)
+[![Forks](https://img.shields.io/github/forks/abhisheksingh0505/fake_news_detection?style=social)](https://github.com/abhisheksingh0505/fake_news_detection/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/abhisheksingh0505/fake_news_detection)](https://github.com/abhisheksingh0505/fake_news_detection/commits/main)
 
 A machine learning-powered web application that classifies news articles as **Real** or **Fake** using Natural Language Processing techniques. Built with Streamlit and scikit-learn.
 
@@ -286,13 +290,6 @@ python -m pytest tests/
 2. "Natural Language Processing with Python" - NLTK Documentation
 3. "scikit-learn: Machine Learning in Python" - Journal of Machine Learning Research
 
-# 🕵️ Fake News Detection
-
-[![GitHub Stars](https://img.shields.io/github/stars/abhisheksingh0505/fake_news_detection?style=social)](https://github.com/abhisheksingh0505/fake_news_detection/stargazers)
-[![Forks](https://img.shields.io/github/forks/abhisheksingh0505/fake_news_detection?style=social)](https://github.com/abhisheksingh0505/fake_news_detection/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/abhisheksingh0505/fake_news_detection)](https://github.com/abhisheksingh0505/fake_news_detection/commits/main)
-
----
 
 ⭐ **If you find this project helpful, please [give it a star](https://github.com/abhisheksingh0505/fake_news_detection/stargazers)!** ⭐
 

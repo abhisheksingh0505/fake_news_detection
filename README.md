@@ -19,7 +19,7 @@ A machine learning-powered web application that classifies news articles as **Re
 
 ## 🚀 Live Demo
 
-[(http://localhost:8502)]
+[((http://192.168.43.232:8501))]
 
 ## 📊 Model Performance
 
@@ -93,7 +93,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+<<<<<<< HEAD
 The app will open in your default browser at `http://192.168.43.232:8501`
+=======
+The app will open in your default browser at `(http://192.168.43.232:8501)`
+>>>>>>> fb0da77c99d3be2436ee62761caa4c00d24113de
 
 ## 📦 Dependencies
 

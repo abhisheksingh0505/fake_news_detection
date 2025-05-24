@@ -37,13 +37,19 @@ streamlit-fake-news/
 ├── datasets/                      # Training datasets
 │   ├── Fake.csv                   # Fake news dataset
 │   └── True.csv                   # Real news dataset
-├── venv/                          # Virtual environment
-├── .git/                           # Git repository
-├── .gitignore                      # Git ignore file
-├── app.py                          # Main Streamlit application
-├── fake_news_classifier.ipynb     # Jupyter notebook (model training)
-├── README.md                       # Project documentation
-├── requirements.txt                # Python dependencies
+
+├── models/                        # Saved model artifacts
+│   ├── model.pkl                  # Trained classification model
+│   └── tfidf.pkl                  # TF-IDF vectorizer
+
+├── venv/                          # Virtual environment (ignored)
+├── .git/                          # Git repository
+├── .gitignore                     # Git ignore file
+├── app.py                         # Main Streamlit application
+├── fake_news_classifier.ipynb    # Jupyter notebook (model training)
+├── README.md                      # Project documentation
+├── requirements.txt               # Python dependencies
+
 
 ```
 
@@ -93,11 +99,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-<<<<<<< HEAD
-The app will open in your default browser at `http://192.168.43.232:8501`
-=======
-The app will open in your default browser at `(http://192.168.43.232:8501)`
->>>>>>> fb0da77c99d3be2436ee62761caa4c00d24113de
 
 ## 📦 Dependencies
 

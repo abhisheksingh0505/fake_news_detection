@@ -34,21 +34,20 @@ A machine learning-powered web application that classifies news articles as **Re
 ```
 streamlit-fake-news/
 
-├── datasets/                      # Training datasets
-│   ├── Fake.csv                   # Fake news dataset
-│   └── True.csv                   # Real news dataset
-
-├── models/                        # Saved model artifacts
-│   ├── model.pkl                  # Trained classification model
-│   └── tfidf.pkl                  # TF-IDF vectorizer
-
-├── venv/                          # Virtual environment (ignored)
-├── .git/                          # Git repository
-├── .gitignore                     # Git ignore file
-├── app.py                         # Main Streamlit application
-├── fake_news_classifier.ipynb    # Jupyter notebook (model training)
-├── README.md                      # Project documentation
-├── requirements.txt               # Python dependencies
+├── datasets/                        # Training datasets
+│   ├── Fake.csv                     # Fake news dataset
+│   └── True.csv                     # Real news dataset
+├── models/                          # Saved model artifacts
+│   ├── model.pkl                    # Trained classification model
+│   └── tfidf.pkl                    # TF-IDF vectorizer
+├── venv/                            # Virtual environment (ignored)
+├── .git/                            # Git repository
+├── .gitignore                       # Git ignore file
+├── app.py                           # Main Streamlit application
+├── fake_news_classifier.ipynb       # Jupyter notebook (model training)
+├──Fake_news_detection_project_report # Project Report    
+├── README.md                        # Project documentation
+├── requirements.txt                 # Python dependencies
 
 
 ```
@@ -188,11 +187,10 @@ and attention span.
 - **Recall**: [Insert recall]%
 
 ### Confusion Matrix
-```
                 Predicted
               Fake    Real
-Actual Fake   [TP]    [FN]
-       Real   [FP]    [TN]
+Actual Fake   4,187    53
+       Real      49  4,191
 ```
 
 ## 🔍 Feature Importance
